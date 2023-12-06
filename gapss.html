@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BridgingGapsForYoungComposers </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    </head>
+
+<header>
+ <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+    <path d="M180-120q-24 0-42-18t-18-42v-600q0-23 18-41.5t42-18.5h600q23 0 41.5 18.5T840-780v600q0 24-18.5 42T780-120H180Zm0-60h157v-210h-20q-12.75 0-21.375-8.625T287-420v-360H180v600Zm443 0h157v-600H673v360q0 12.75-8.625 21.375T643-390h-20v210Zm-246 0h206v-210h-20q-12.75 0-21.375-8.625T533-420v-360H427v360q0 12.75-8.625 21.375T397-390h-20v210Z"/></svg>
+    <h4>Gabi Motuba </h4>
+</div>
+</header>
+
+<body>
+
+    <section> 
+        <nav class="navMenu"> 
+                <a href="about.html">HOME</a>
+                <a href="classroom.html">ABOUT</a>
+                <a href="gapsportfolio.html">The (BGYC) Portfolio</a>
+                <a href="classroomsetup.html">classroomsetup</a>
+                <a href="classroom.html">THE CLASSROOMSETUP</a>
+                <a href="Gallery.html">GALLERY</a>
+                <a href="#">GET INVOLVED</a>    
+          </nav>
+    </section>
+
+
+    <section>
+    <div class="circle">
+        <span class="dot"></h1></span> 
+        <h1> The Gaps portfolio</h1>
+    </div>
+    </section>
+    <div class="horizontal-line"> 
+    </div>
+    <div class="line-container"> 
+        <img src="/assests/portfolio.jpg" style="height: 350px; " > </div>
+    <div class="vertical-line">
+    </div>
+
+
+    <div class="portfoliobio">
+        <h1>Soweto Theatre</h1>
+        <p> Soweto Theatre is proud to announce Gabi Motuba as their first artist for the
+         residency from January 2022 to June 2022. The purpose of the residency project is to provide employment opportunities for
+         qualified young professional musicians and to find ways of including our programme
+         students in productions, workshops and performances with touring musicians.</p>
+         <button class="buttonDownload" onclick="downloadPdff()">Download</button>
+    </div>
+ 
+
+    
+    <div class="horizontal-line-two"> 
+    </div>
+    <div class="line-container-two"> 
+        <img src="/assests/portfolio1.png" style="height: 350px; " > </div>
+    <div class="vertical-line-two">
+    </div>
+
+
+    <div class="portfoliobiotwo">
+        <h1> The Morris Isaacson Centre for Music
+            (MICM)</h1>
+        <p> The Morris Isaacson Centre for Music (MICM) - is a music centre, located in Central Western Jabavu
+            committed to driving human development through music by enabling access to world class music
+            education to more than 326 children in Soweto between ages of 4 and 18. The centre is located on
+            one of the most historically important high schools in South Africa, known as Morris Isaacson
+            Secondary School.</p>
+         <button class="buttonDownload" onclick="downloadPdf()">Download</button>
+    </div>
+ 
+    
+    
+
+
+
+
+   
+   <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+
+    
+    <div class="row">
+    INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+    </div>
+    </div>
+    </footer>
+
+    <script>
+        function downloadPdff() {
+          // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
+          const pdfUrl = 'soweto.docx.pdf';
+    
+          // Create a temporary link element
+          const link = document.createElement('a');
+          link.href = pdfUrl;
+          link.target = '_blank'; // Open the link in a new tab/window
+          link.download = 'document.pdf'; // Set the desired file name
+    
+          // Append the link to the document
+          document.body.appendChild(link);
+    
+          // Trigger a click event on the link
+          link.click();
+    
+          // Remove the link from the document
+          document.body.removeChild(link);
+        }
+      </script>
+
+    <script>
+        function downloadPdf() {
+          // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
+          const pdfUrl = 'MICM.docx.pdf';
+    
+          // Create a temporary link element
+          const link = document.createElement('a');
+          link.href = pdfUrl;
+          link.target = '_blank'; // Open the link in a new tab/window
+          link.download = 'document.pdf'; // Set the desired file name
+    
+          // Append the link to the document
+          document.body.appendChild(link);
+    
+          // Trigger a click event on the link
+          link.click();
+    
+          // Remove the link from the document
+          document.body.removeChild(link);
+        }
+      </script>
+
+</body>
+</html>
+
