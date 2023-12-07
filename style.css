@@ -128,7 +128,7 @@ font-weight:900 ;
  margin-top:5rem;
  height: 40%;
  width: 80%; /* You can adjust this value */
- height: 200px; /* Set the same value as width to maintain aspect ratio */
+ height: 200px; 
  display: flex;
  margin-left: 5rem;
 }
